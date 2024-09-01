@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(12,3,51,0.3),rgba(12,3,51,0.3);
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.video{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    font-size: 2em;
+    color:#c19513;
+    margin-right: 270px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #c19513;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.nav ul li a:hover{
+    background: #c19513;
+    color: #fff;
+}
+.content{
+    text-align: center;
+
+}
+.content h1{
+    font-size: 80px;
+    color: #88857d;
+    font-weight: 600;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color:#88857d;
+    font-size: 24px;
+    border: 10px solid #39391c;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.content{
+    #searchbar{
+        border-radius: 5px;
+        border: 3px solid #39391c;
+    }
+   
+}
+.main{
+    border-radius: 10px;
+    text-decoration: none;
+    color: #88857d;
+    font-size: 5px;
+    border: 2px solid #39391c;
+    padding: 5px 5px;
+    margin-top: 20px;
+}
+.job-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.job-description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.apply-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+.job-box1 {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(167, 219, 89);
+    border: 5px solid black;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+.job-box2 {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(167, 219, 89);
+    border: 5px solid black;
+    height: 300px;
+    margin-top: 30px;
+
+    
+}
+.job-box3 {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(167, 219, 89);
+    border: 5px solid black;
+    height: 300px;
+    margin-left:60px;
+   
+}
+.job-box4 {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(167, 219, 89);
+    border: 5px solid black;
+    height: 300px;
+    
+}
+.job-box5 {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(167, 219, 89);
+    border: 5px solid black;
+    height: 300px;
+    margin-left: 60px;
+}
+.job-box6 {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(167, 219, 89);
+    border: 5px solid black;
+    height: 300px;
+    
+}
+.job-boxes{
+    width: 100%;
+    background-color: #88857d;
+    border: 2px solid black;
+    height:1000px;
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+}
+
+.job-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.job-description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.apply-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+    
+}
+#aboutus-content{
+    background-color:#39391c;
+    border: 2px solid black;
+    font-weight: 5px;
+    font-size: larger;
+
+}
+.abt{
+    background-color: #88857d;
+    height: 1600px;
+    font-weight: 600;
+    font-size:larger;
+    letter-spacing: 2px;
+    line-height: 50px;
+    
+}
+.abtt{
+    margin-left: 10px;
+}
+.abt h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size:x-large;
+    color: black;
+    
+}
+
+
+
+#Internship-content{
+    background-color: #39391c;
+    font-weight: 5px;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    
+    
+}
+
+
+.job-description{
+    color: black;
+    font-weight: bold;
+}
+.employers {
+    background-color:#88857d;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.emp h1{
+    background-color:#39391c;
+    border: 5px solid black;
+}
+
+.employers-box1{
+    background-color: rgb(167, 219, 89);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid black;
+}
+.employers-box2{
+    background-color: rgb(167, 219, 89);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid black;
+}
+.employers-box2 .apply-button{
+    margin-top: 65px;
+}
+.nav a{
+    text-decoration: none;
+    color: #c19513;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin: 0 5px;
+    font-weight: 600;
+}
+.nav a:hover,
+.nav a.active{
+    background-color: #c19513;
+    color:#fff;
+}
+.footer{
+    background-color: rgb(167, 219, 89);
+}
+.content a:hover{
+    background-color: #39391c;
+}
